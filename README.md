@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# 🚀 Animated 3D Portfolio Website
 
-## Project info
+A modern, performant portfolio website built with React, Framer Motion, Three.js, and interactive particles.
 
-**URL**: https://lovable.dev/projects/1905298b-6cce-47f8-b528-40c15818132f
+## ✨ Features
 
-## How can I edit this code?
+- **🎨 Dark Theme Design** with vibrant gradient accents
+- **🎭 Smooth Page Transitions** using Framer Motion
+- **🎯 Interactive 3D Elements** with Three.js/React Three Fiber
+- **⚡ Interactive Particles** that respond to mouse movements
+- **📱 Mobile-First Responsive** design
+- **♿ Accessibility Support** with reduced motion preferences
+- **📧 Contact Form** with EmailJS integration
+- **🎪 Animated Components** with tilt effects and micro-interactions
 
-There are several ways of editing your application.
+## 🏗️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript + Vite
+- **Styling**: Tailwind CSS + Custom Design System
+- **Animations**: Framer Motion
+- **3D Graphics**: Three.js + React Three Fiber + Drei
+- **Particles**: Custom SVG-based particle system
+- **Email**: EmailJS for contact form
+- **UI Components**: Shadcn/ui
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1905298b-6cce-47f8-b528-40c15818132f) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-**Use your preferred IDE**
+2. **Start development server**:
+   ```bash
+   npm run dev
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. **Build for production**:
+   ```bash
+   npm run build
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📧 Email Configuration
 
-Follow these steps:
+To enable the contact form:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Sign up for [EmailJS](https://emailjs.com)
+2. Create environment variables:
+   ```env
+   REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+   REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+   REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Reusable UI components
+├── pages/              # Page components
+├── lib/                # Utilities and configurations
+├── hooks/              # Custom React hooks
+├── assets/             # Images and static assets
+└── styles/             # Global styles
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Performance Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Lazy loading** for 3D components
+- **Reduced motion** support for accessibility
+- **Optimized particles** for mobile devices
+- **Efficient animations** with proper cleanup
 
-**Use GitHub Codespaces**
+## 📱 Responsive Breakpoints
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px  
+- **Desktop**: > 1024px
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1905298b-6cce-47f8-b528-40c15818132f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ using modern web technologies.
